@@ -4,7 +4,7 @@ Materials
 1 x L298N Driver
 1 x Stepper motor 4 wire
 1 X Arduino R3
-1 x Gyroscope ITG GY-521
+1 x Gyroscope/Accelerometer ITG GY-521 MPU6050
 
 =================================================================
 
