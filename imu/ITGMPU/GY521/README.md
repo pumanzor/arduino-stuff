@@ -34,8 +34,8 @@ then determine which pairs are group A and group B
 
 then
 
- L298N Out1/out2 ---> to Group A motor
- L298N Out3/Out4 ---> to Group B motor
+ L298N Out1/out2 ---> to Group A motor  
+ L298N Out3/Out4 ---> to Group B motor  
 
 -------------------------------------------
  
