@@ -22,15 +22,15 @@ L298N to Arduino
 L298N pin IN1 ---> Pin 8 Arduino  
 L298N pin IN2 ---> Pin 0 Arduino  
 L298N pin IN3 ---> Pin 10 Arduino  
-L298N pin IN4 ---> Pin 11 Arduino  
-  
+L298N pin IN4 ---> Pin 11 Arduino   
 
 L298N Pin GND ---> Pin GND Arduino (please don't forget this connection, otherwise the motor it doesn't work)
--------------------------------
+
+
 L298N to Motor
 
 First you will need figure out what are the coils, take a multimeter and change to ohmmeter, 
-then determine which pairs are group A and group B
+then determine which pairs are group A and group B 
 
 then
 
