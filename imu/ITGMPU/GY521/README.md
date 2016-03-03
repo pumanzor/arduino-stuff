@@ -1,4 +1,3 @@
-=====================================================================0
 Materials
 
 1 x L298N Driver
@@ -6,7 +5,7 @@ Materials
 1 X Arduino R3
 1 x Gyroscope/Accelerometer ITG GY-521 MPU6050
 
-=================================================================
+-------------------------
 
 Pinout
 
@@ -25,7 +24,7 @@ L298N pin IN3 ---> Pin 10 Arduino
 L298N pin IN4 ---> Pin 11 Arduino
 
 L298N Pin GND ---> Pin GND Arduino (please don't forget this connection, otherwise the motor it doesn't work)
-
+-------------------------------
 L298N to Motor
 
 First you will need figure out what are the coils, take a multimeter and change to ohmmeter, 
@@ -35,10 +34,7 @@ then
 
 L298N Out1/out2 ---> to Group A motor
 L298N Out3/Out4 ---> to Group B motor
-
+-------------------------------------------
 LN982N and Power supply
 
 YOu will need to connect L298N to external power source 12Volts
-
-=====================================================================================0
-
