@@ -20,7 +20,7 @@ ITG GND ---> GND Arduino
 L298N to Arduino
 
 L298N pin IN1 ---> Pin 8 Arduino  
-L298N pin IN2 ---> Pin 0 Arduino  
+L298N pin IN2 ---> Pin 9 Arduino  
 L298N pin IN3 ---> Pin 10 Arduino  
 L298N pin IN4 ---> Pin 11 Arduino   
 
