@@ -1,27 +1,29 @@
 Materials
 
-1 x L298N Driver
-1 x Stepper motor 4 wire
-1 X Arduino R3
+1 x L298N Driver  
+1 x Stepper motor 4 wire  
+1 X Arduino R3  
 1 x Gyroscope/Accelerometer ITG GY-521 MPU6050
 
 -------------------------
 
 Pinout
 
-ITG Gy-521 to Arduino
+ITG Gy-521 to Arduino 
 
-ITG pin SCL ---> Pin5 Arduino
-ITG pin SDA ---> Pin4 Arduino
-ITG VCC ----> 5v Arduino
-ITG GND ---> GND Arduino
+ITG pin SCL ---> Pin5 Arduino  
+ITG pin SDA ---> Pin4 Arduino      
+ITG VCC ----> 5v Arduino    
+ITG GND ---> GND Arduino 
+
 
 L298N to Arduino
 
-L298N pin IN1 ---> Pin 8 Arduino
-L298N pin IN2 ---> Pin 0 Arduino
-L298N pin IN3 ---> Pin 10 Arduino
-L298N pin IN4 ---> Pin 11 Arduino
+L298N pin IN1 ---> Pin 8 Arduino  
+L298N pin IN2 ---> Pin 0 Arduino  
+L298N pin IN3 ---> Pin 10 Arduino  
+L298N pin IN4 ---> Pin 11 Arduino  
+  
 
 L298N Pin GND ---> Pin GND Arduino (please don't forget this connection, otherwise the motor it doesn't work)
 -------------------------------
