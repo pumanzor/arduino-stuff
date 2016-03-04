@@ -1,3 +1,5 @@
+![alt tag](https://raw.githubusercontent.com/pumanzor/arduino-stuff/master/imu/ITGMPU/GY521/R3_L298N_stepper_v2.png)
+
 Materials
 
 1 x L298N Driver  
