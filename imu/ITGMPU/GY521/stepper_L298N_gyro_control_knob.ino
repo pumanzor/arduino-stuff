@@ -36,7 +36,7 @@ double kalAngleX, kalAngleY; // Calculated angle using a Kalman filter
 uint32_t timer;
 uint8_t i2cData[14]; // Buffer for I2C data
 
-Stepper stepper2(400, 8,9,10,11);
+Stepper stepper2(400, 11,10,9,8);
 int cantidad = 1;
 
 int previous = 0;
