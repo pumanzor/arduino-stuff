@@ -43,4 +43,4 @@ then
  
  LN982N and Power supply
 
-YOu will need to connect L298N to external power source 12Volts.
+You will need to connect L298N to external power source 5vcd or 12Vdc , it depends of motor voltage.
