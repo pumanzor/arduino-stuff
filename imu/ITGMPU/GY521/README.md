@@ -8,6 +8,11 @@ Materials
 1 x Gyroscope/Accelerometer ITG GY-521 MPU6050
 
 -------------------------
+Software
+
+I2C.ino and Kalman.h MUST be in the same directory that sketch
+
+-------------------------
 
 Pinout
 
