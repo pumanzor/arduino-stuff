@@ -38,6 +38,9 @@ L298N pin IN2 ---> Pin 5 Arduino
 L298N pin IN3 ---> Pin 6 Arduino  
 L298N pin IN4 ---> Pin 7 Arduino 
 
+L298N Pin GND ---> Pin GND Arduino (please don't forget this connection, otherwise the motor it doesn't work)
+
+
 L298N to Motor
 
 First you will need figure out what are the coils, take a multimeter and change to ohmmeter, 
