@@ -1,0 +1,15 @@
+It turns out the Arduino 168 and 328 can measure their own voltage rail.
+
+Code
+
+Copy, paste into Arduino and see what it returns. This works on an Arduino 168 or 328.
+
+``` long readVcc() { long result; // Read 1.1V reference against AVcc ADMUX = _BV(REFS0) | _BV(MUX3) | _BV(MUX2) | _BV(MUX1); delay(2); // Wait for Vref to settle ADCSRA |= _BV(ADSC); // Convert while (bit_is_set(ADCSRA,ADSC)); result = ADCL; result |= ADCH<<8; result = 1126400L / result; // Back-calculate AVcc in mV return result; }
+
+void setup() { Serial.begin(9600); }
+
+void loop() { Serial.println( readVcc(), DEC ); delay(1000); } ```
+
+The voltage is returned in millivolts. So 5000 is 5V, 3300 is 3.3V.
+
+Note the following: * This works on Arduinos with a 328 or 168 only. It looks like the same trick might be possible on the Arduino Mega - experiments are ongoing, and will be reported here.
