@@ -7,7 +7,7 @@
 Kalman kalmanX; 
 Kalman kalmanY;
 
-/* IMU Data */
+
 double accX, accY, accZ;
 double gyroX, gyroY, gyroZ;
 int16_t tempRaw;
